@@ -2,15 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.checked {
+  text-decoration: line-through;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar {
+  background-color: rgb(232, 231, 231);
+  border: none;
+  border-radius: 5px;
+}
+
+
+.addButton {
+  background-color: rgb(51, 64, 247);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.deleteButton {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 .App-header {
